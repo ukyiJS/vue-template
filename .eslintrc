@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "extends": ["plugin:vue/essential", "@vue/airbnb"],
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "rules": {
+    "max-len": "off",
+    "no-console": "off",
+    "no-debugger": "off",
+    "no-unused-vars": "off",
+    "no-return-assign": "off",
+    "no-param-reassign": "off",
+    "import/extensions": "off",
+    "comma-dangle": "off",
+    "arrow-parens": "off",
+    "import/prefer-default-export": "off",
+    "template-curly-spacing": "off",
+    "implicit-arrow-linebreak": "off",
+    "indent": ["error", 2, { "ignoredNodes": ["TemplateLiteral"] }]
+  }
+}
