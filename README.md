@@ -24,7 +24,7 @@ yarn build
 VUE_APP_CRYPTO_SECRET_KEY
 ```
 
-# Libraries and Technologies used
+# Used libraries and technologies
 
 - [Vue](https://vuejs.org/)
 
